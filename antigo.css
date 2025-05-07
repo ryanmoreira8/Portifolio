@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+#logo {
+    width: 150px;
+}
+
+body {
+    background-color: #0E1418;
+    height: 100vh;
+
+}
+
+.interface {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*Estilo cabeçalho */
+header {
+    padding: 40px 4%;
+    
+}
+
+header>.interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    color: #5c5c5c;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover {
+    color: #fff;
+    transform: scale(1.05);
+
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 40px;
+}
+
+header .btn-contato button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #0E1418;
+    border: 0;
+    border-radius: 30px;
+    background-color: #EC3433;
+    cursor: pointer;
+}
+
+header .btn-contato button:hover {
+    box-shadow: 0px 0px 8px #FF1E56;
+}
+
+.conteudo-main {
+    display: flex;
+
+}
+
+.conteudo-main img {
+    width: 300px;
+}
+
+.conteudo-main .texto-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: justify;
+    padding-right: 50px;
+    padding-left: 25px;
+    color: antiquewhite;
+    text-shadow: 1px 1px 4px #e1aafe62;
+
+}
+
+.texto-main>h1 {
+    font-weight: 700;
+    font-size: 50px;
+    
+
+}
+
+
+
+#foto-minha {
+    border: 0;
+    box-shadow: 3px 3px 20px #C1121F;
+    border-radius: 50%;
+    
+}
+
+#foto-minha:hover {
+    transition: 0.2s;
+    box-shadow: 0px 0px 20px #FF073A;
+
+}
+
+.meus-projetos{
+    text-align: center;
+    padding: 55px;
+    color: whitesmoke;
+    margin-top: 100px;
+    background-color: 	#1C1F22;
+    
+    
+}
+
+.em-breve {
+    
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content:space-between;
+    justify-content: space-between;
+}
+
+
+
+.em-breve > img{
+    border: 0;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px#ff073989;
+    margin: 35px 0px 0px;
+    width: 300px;
+}
+
